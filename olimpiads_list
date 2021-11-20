@@ -1,0 +1,1089 @@
+{
+    "astr": [
+        {
+            "link": "https://olimpiada.ru/activity/99",
+            "name": "Московская астрономическая олимпиада",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/287",
+            "name": "Санкт-Петербургская астрономическая олимпиада",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5622",
+            "name": "Всесибирская олимпиада школьников по астрономии",
+            "level": "3"
+        }
+    ],
+    "inf-sec": [
+        {
+            "link": "https://olimpiada.ru/activity/5369",
+            "name": "Национальная технологическая олимпиада",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5698",
+            "name": "Олимпиада Университета Иннополис «Innopolis Open» по информационной безопасности",
+            "level": "3"
+        }
+    ],
+    "russ": [
+        {
+            "link": "https://olimpiada.ru/activity/160",
+            "name": "Олимпиада «Высшая проба» по русскому языку",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/347",
+            "name": "Олимпиада школьников «Ломоносов» по русскому языку",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/391",
+            "name": "Олимпиада РГГУ для школьников по русскому языку",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5013",
+            "name": "Плехановская олимпиада по русскому языку",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5394",
+            "name": "Многопрофильная олимпиада УрФУ для школьников «Изумруд» по русскому языку",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/363",
+            "name": "Олимпиада «Будущие исследователи - будущее науки» по русскому языку",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/372",
+            "name": "Олимпиада Казанского федерального университета по русскому языку",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5047",
+            "name": "Олимпиада «Океан знаний» по русскому языку",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5437",
+            "name": "Открытая олимпиада вузов Томской области по русскому языку",
+            "level": "3"
+        }
+    ],
+    "biol": [
+        {
+            "link": "https://olimpiada.ru/activity/324",
+            "name": "Олимпиада школьников «Ломоносов» по биологии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/162",
+            "name": "Олимпиада «Покори Воробьевы горы!» по биологии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/124",
+            "name": "Олимпиада СПбГУ по биологии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5668",
+            "name": "Олимпиада «Высшая проба» по биологии",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5149",
+            "name": "Всероссийская Сеченовская олимпиада школьников по биологии ",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/318",
+            "name": "Всесибирская олимпиада школьников по биологии",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/358",
+            "name": "Олимпиада «Будущие исследователи - будущее науки» по биологии",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5735",
+            "name": "Олимпиада школьников «Физтех» по биологии ",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/4",
+            "name": "Турнир Ломоносова",
+            "level": "2"
+        }
+    ],
+    "hist": [
+        {
+            "link": "https://olimpiada.ru/activity/147",
+            "name": "Олимпиада «Высшая проба» по истории",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/353",
+            "name": "Олимпиада школьников «Ломоносов» по истории",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/459",
+            "name": "Олимпиада СПбГУ по истории",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5277",
+            "name": "Олимпиада школьников «В начале было Слово...»",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5207",
+            "name": "Всероссийская Толстовская олимпиада школьников по истории",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/359",
+            "name": "Олимпиада «Будущие исследователи - будущее науки» по истории",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/382",
+            "name": "Олимпиада Казанского федерального университета по истории",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/103",
+            "name": "Московская олимпиада по истории",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/392",
+            "name": "Олимпиада РГГУ для школьников по истории",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/164",
+            "name": "Олимпиада «Покори Воробьевы горы!» по истории",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5285",
+            "name": "Олимпиада РАНХиГС по истории",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/4",
+            "name": "Турнир Ломоносова",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5418",
+            "name": "Олимпиада «Миссия выполнима. Твое призвание - финансист!» по истории",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5617",
+            "name": "Многопрофильная олимпиада УрФУ для школьников «Изумруд» по истории",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5049",
+            "name": "Олимпиада «Океан знаний» по истории",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5726",
+            "name": "Олимпиада школьников «В мир права»",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/470",
+            "name": "Открытая олимпиада вузов Томской области по истории",
+            "level": "3"
+        }
+    ],
+    "sociol": [
+        {
+            "link": "https://olimpiada.ru/activity/5448",
+            "name": "Олимпиада «Высшая проба» по социологии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/462",
+            "name": "Олимпиада СПбГУ по социологии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5696",
+            "name": "Многопрофильная олимпиада УрФУ для школьников «Изумруд» по социологии",
+            "level": "3"
+        }
+    ],
+    "gen": [
+        {
+            "link": "https://olimpiada.ru/activity/5753",
+            "name": "Московская олимпиада по генетике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5762",
+            "name": "Олимпиада школьников «Ломоносов» по генетике",
+            "level": "3"
+        }
+    ],
+    "ling": [
+        {
+            "link": "https://olimpiada.ru/activity/39",
+            "name": "Московская традиционная олимпиада по лингвистике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/4",
+            "name": "Турнир Ломоносова",
+            "level": "2"
+        }
+    ],
+    "music": [
+        {
+            "link": "https://olimpiada.ru/activity/5033",
+            "name": "Всероссийская олимпиада учащихся музыкальных училищ и колледжей по предмету «Теория и история музыки»",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5761",
+            "name": "Межрегиональная открытая олимпиада по музыкально-теоретическим дисциплинам",
+            "level": "2"
+        }
+    ],
+    "geog": [
+        {
+            "link": "https://olimpiada.ru/activity/211",
+            "name": "Олимпиада «Юные таланты» по географии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/104",
+            "name": "Московская олимпиада по географии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/354",
+            "name": "Олимпиада школьников «Ломоносов» по географии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/446",
+            "name": "Олимпиада СПбГУ по географии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5715",
+            "name": "Олимпиада «Высшая проба» по географии",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5028",
+            "name": "Герценовская олимпиада школьников по географии",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5444",
+            "name": "Олимпиада «Покори Воробьевы горы!» по географии",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5196",
+            "name": "Олимпиада Северо-кавказского федерального университета «45 параллель» по географии ",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/469",
+            "name": "Открытая олимпиада вузов Томской области по географии",
+            "level": "3"
+        }
+    ],
+    "litr": [
+        {
+            "link": "https://olimpiada.ru/activity/349",
+            "name": "Олимпиада школьников «Ломоносов» по литературе",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/165",
+            "name": "Олимпиада «Покори Воробьевы горы!» по литературе",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5360",
+            "name": "Олимпиада РГГУ для школьников по литературе",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/471",
+            "name": "Открытая олимпиада вузов Томской области по литературе",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/4",
+            "name": "Турнир Ломоносова",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5277",
+            "name": "Олимпиада школьников «В начале было Слово...»",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5428",
+            "name": "Всероссийская Толстовская олимпиада школьников по литературе",
+            "level": "3"
+        }
+    ],
+    "phys": [
+        {
+            "link": "https://olimpiada.ru/activity/57",
+            "name": "Интернет-олимпиада школьников по физике ",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/108",
+            "name": "Московская олимпиада по физике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/166",
+            "name": "Олимпиада «Покори Воробьевы горы!» по физике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/394",
+            "name": "Олимпиада школьников «Физтех» по физике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/412",
+            "name": "Олимпиада «Росатом» по физике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/161",
+            "name": "Олимпиада «Высшая проба» по физике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/319",
+            "name": "Всесибирская олимпиада школьников по физике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/241",
+            "name": "Городская открытая олимпиада школьников по физике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/282",
+            "name": "Инженерная олимпиада школьников",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/388",
+            "name": "Олимпиада Курчатов по физике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/344",
+            "name": "Олимпиада школьников «Ломоносов» по физике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5405",
+            "name": "Олимпиада школьников «Робофест» по физике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/169",
+            "name": "Олимпиада «Шаг в будущее» по физике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/444",
+            "name": "Олимпиада СПбГУ по физике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/4",
+            "name": "Турнир Ломоносова",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/232",
+            "name": "Олимпиада «Наследники Левши» ",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5395",
+            "name": "Многопрофильная олимпиада УрФУ для школьников «Изумруд» по физике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/361",
+            "name": "Олимпиада «Будущие исследователи - будущее науки» по физике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/376",
+            "name": "Олимпиада Казанского федерального университета по физике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5332",
+            "name": "Олимпиада школьников «Надежда энергетики» по физике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/368",
+            "name": "Открытая межвузовская олимпиада школьников «Будущее Сибири» по физике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/472",
+            "name": "Открытая олимпиада вузов Томской области по физике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5516",
+            "name": "Олимпиада «Газпром»",
+            "level": "3"
+        }
+    ],
+    "geol": [
+        {
+            "link": "https://olimpiada.ru/activity/345",
+            "name": "Олимпиада школьников «Ломоносов» по геологии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/430",
+            "name": "Олимпиада «Юные таланты» по геологии",
+            "level": "3"
+        }
+    ],
+    "math": [
+        {
+            "link": "https://olimpiada.ru/activity/149",
+            "name": "Олимпиада «Высшая проба» по математике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/1",
+            "name": "Московская математическая олимпиада",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/348",
+            "name": "Олимпиада школьников «Ломоносов» по математике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/115",
+            "name": "Олимпиада «Покори Воробьевы горы!» по математике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/443",
+            "name": "Олимпиада СПбГУ по математике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/246",
+            "name": "Санкт-Петербургская олимпиада школьников по математике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5",
+            "name": "Турнир городов",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/315",
+            "name": "Всесибирская олимпиада школьников по математике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/24",
+            "name": "Межрегиональная олимпиада школьников им. И.Я. Верченко по математике и криптографии",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/174",
+            "name": "Межрегиональная олимпиада школьников на базе ведомственных образовательных организаций (математика)",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/6",
+            "name": "Объединенная межвузовская математическая олимпиада",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/223",
+            "name": "Объединенная международная математическая олимпиада «Формула Единства» / «Третье тысячелетие»",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/389",
+            "name": "Олимпиада Курчатов по математике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/395",
+            "name": "Олимпиада школьников «Физтех» по математике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/66",
+            "name": "Олимпиада Юношеской математической школы",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/411",
+            "name": "Олимпиада «Росатом» по математике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/4",
+            "name": "Турнир Ломоносова",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/4355",
+            "name": "Олимпиада «Миссия выполнима. Твое призвание - финансист!» по математике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5393",
+            "name": "Многопрофильная олимпиада УрФУ для школьников «Изумруд» по математике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/197",
+            "name": "Межрегиональная олимпиада школьников по математике «САММАТ»",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/360",
+            "name": "Олимпиада «Будущие исследователи - будущее науки» по математике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5115",
+            "name": "Транспортная олимпиада «Паруса надежды» по математике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/375",
+            "name": "Олимпиада Казанского федерального университета по математике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5367",
+            "name": "Олимпиада Университета Иннополис «Innopolis Open» по математике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/168",
+            "name": "Олимпиада «Шаг в будущее» по математике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/121",
+            "name": "Открытая олимпиада школьников (математика)",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/397",
+            "name": "Университетская олимпиада школьников «Бельчонок» по математике",
+            "level": "3"
+        }
+    ],
+    "phil": [
+        {
+            "link": "https://olimpiada.ru/activity/148",
+            "name": "Олимпиада «Высшая проба» по филологии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/460",
+            "name": "Олимпиада СПбГУ по филологии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/40",
+            "name": "Московская филологическая олимпиада",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5019",
+            "name": "Филологическая олимпиада «Юный словесник»",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5764",
+            "name": "Многопрофильная олимпиада УрФУ для школьников «Изумруд» по филологии",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5793",
+            "name": "Северо-Восточная олимпиада по родному языку и литературе",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5312",
+            "name": "Северо-Восточная олимпиада по русскому языку и литературе",
+            "level": "3"
+        }
+    ],
+    "human": [
+        {
+            "link": "https://olimpiada.ru/activity/5054",
+            "name": "Междисциплинарная олимпиада школьников имени В. И. Вернадского по истории и обществознанию",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/206",
+            "name": "Телевизионная гуманитарная олимпиада школьников «Умницы и умники»",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5005",
+            "name": "Олимпиада МГИМО(У) МИД России для школьников",
+            "level": "2"
+        }
+    ],
+    "soci": [
+        {
+            "link": "https://olimpiada.ru/activity/150",
+            "name": "Олимпиада «Высшая проба» по обществознанию",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/351",
+            "name": "Олимпиада школьников «Ломоносов» по обществознанию",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/116",
+            "name": "Олимпиада «Покори Воробьевы горы!» по обществознанию",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/442",
+            "name": "Олимпиада СПбГУ по обществознанию",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/188",
+            "name": "Олимпиада «Государственный аудит»",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/106",
+            "name": "Московская олимпиада по обществознанию",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5009",
+            "name": "Олимпиада РАНХиГС по обществознанию",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5296",
+            "name": "Олимпиада «Миссия выполнима. Твое призвание - финансист!» по обществознанию",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5443",
+            "name": "Всероссийская Толстовская олимпиада школьников по обществознанию",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5396",
+            "name": "Многопрофильная олимпиада УрФУ для школьников «Изумруд» по обществознанию",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/173",
+            "name": "Межрегиональная олимпиада школьников на базе ведомственных образовательных организаций (обществознание)",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5050",
+            "name": "Олимпиада «Океан знаний» по обществознанию",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5400",
+            "name": "Региональный конкурс школьников Челябинского университетского образовательного округа по обществознанию",
+            "level": "3"
+        }
+    ],
+    "philos": [
+        {
+            "link": "https://olimpiada.ru/activity/5449",
+            "name": "Олимпиада «Высшая проба» по философии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/355",
+            "name": "Олимпиада школьников «Ломоносов» по философии",
+            "level": "1"
+        }
+    ],
+    "natsc": [
+        {
+            "link": "https://olimpiada.ru/activity/5430",
+            "name": "Всероссийский конкурс научных работ школьников «Юниор» по естественным наукам",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5322",
+            "name": "Многопрофильная инженерная олимпиада «Звезда» по естественным наукам",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5477",
+            "name": "Олимпиада «Гранит науки» по естественным наукам",
+            "level": "3"
+        }
+    ],
+    "polit": [
+        {
+            "link": "https://olimpiada.ru/activity/5447",
+            "name": "Олимпиада «Высшая проба» по политологии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/342",
+            "name": "Олимпиада школьников «Ломоносов» по политологии",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5415",
+            "name": "Олимпиада РАНХиГС по политологии",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5697",
+            "name": "Многопрофильная олимпиада УрФУ для школьников «Изумруд» по политологии",
+            "level": "3"
+        }
+    ],
+    "finan": null,
+    "jour": [
+        {
+            "link": "https://olimpiada.ru/activity/159",
+            "name": "Олимпиада «Высшая проба» по журналистике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/326",
+            "name": "Олимпиада школьников «Ломоносов» по журналистике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5445",
+            "name": "Олимпиада «Покори Воробьевы горы!» по журналистике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5289",
+            "name": "Олимпиада СПбГУ по журналистике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5411",
+            "name": "Олимпиада РАНХиГС по журналистике",
+            "level": "2"
+        }
+    ],
+    "law": [
+        {
+            "link": "https://olimpiada.ru/activity/151",
+            "name": "Олимпиада «Высшая проба» по праву",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/340",
+            "name": "Олимпиада школьников «Ломоносов» по праву",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/447",
+            "name": "Олимпиада СПбГУ по праву",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/199",
+            "name": "Олимпиада по праву Московской государственной юридической академии имени О. Е. Кутафина",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/185",
+            "name": "Межрегиональная олимпиада по праву «Фемида»",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/111",
+            "name": "Московская олимпиада по праву",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5726",
+            "name": "Олимпиада школьников «В мир права»",
+            "level": "3"
+        }
+    ],
+    "chem": [],
+    "engsc": null,
+    "psy": [
+        {
+            "link": "https://olimpiada.ru/activity/328",
+            "name": "Олимпиада школьников «Ломоносов» по психологии",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5058",
+            "name": "Олимпиада «Высшая проба» по психологии",
+            "level": "2"
+        }
+    ],
+    "ekol": [
+        {
+            "link": "https://olimpiada.ru/activity/327",
+            "name": "Олимпиада школьников «Ломоносов» по экологии",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5675",
+            "name": "Московская олимпиада по экологии",
+            "level": "3"
+        }
+    ],
+    "foreign": [
+        {
+            "link": "https://olimpiada.ru/activity/5208",
+            "name": "Олимпиада «Высшая проба» по иностранным языкам ",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/325",
+            "name": "Олимпиада школьников «Ломоносов» по иностранным языкам",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/163",
+            "name": "Олимпиада «Покори Воробьевы горы!» по иностранным языкам",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/461",
+            "name": "Олимпиада СПбГУ по иностранным языкам",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5003",
+            "name": "Межрегиональная олимпиада «Евразийская лингвистическая олимпиада»",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5664",
+            "name": "Олимпиада Казанского федерального университета по иностранным языкам",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/390",
+            "name": "Олимпиада РГГУ для школьников по иностранным языкам",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5008",
+            "name": "Олимпиада РАНХиГС по английскому языку",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5719",
+            "name": "Олимпиада РАНХиГС по китайскому языку",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5710",
+            "name": "Плехановская олимпиада по иностранным языкам",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/171",
+            "name": "Межрегиональная олимпиада школьников на базе ведомственных образовательных организаций (иностранные языки)",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5401",
+            "name": "Региональный конкурс школьников Челябинского университетского образовательного округа по иностранным языкам",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/404",
+            "name": "Олимпиада школьников «Учитель школы будущего» по иностранным языкам",
+            "level": "3"
+        }
+    ],
+    "draw": [
+        {
+            "link": "https://olimpiada.ru/activity/5420",
+            "name": "Международная олимпиада школьников «Искусство графики»",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5298",
+            "name": "Межрегиональная олимпиада имени В. Е. Татлина",
+            "level": "2"
+        }
+    ],
+    "econ": [
+        {
+            "link": "https://olimpiada.ru/activity/152",
+            "name": "Олимпиада «Высшая проба» по экономике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/59",
+            "name": "Межрегиональная экономическая олимпиада школьников имени Н. Д. Кондратьева",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/110",
+            "name": "Московская олимпиада по экономике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/242",
+            "name": "Олимпиада по экономике в рамках международного экономического фестиваля «Сибириада. Шаг в мечту»",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/464",
+            "name": "Олимпиада СПбГУ по экономике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/4354",
+            "name": "Олимпиада «Миссия выполнима. Твое призвание - финансист!» по экономике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5412",
+            "name": "Олимпиада РАНХиГС по экономике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5384",
+            "name": "Олимпиада по экономике Вологодского центра РАН",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5172",
+            "name": "Плехановская олимпиада по экономике",
+            "level": "3"
+        }
+    ],
+    "iikt": [
+        {
+            "link": "https://olimpiada.ru/activity/153",
+            "name": "Олимпиада «Высшая проба» по информатике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/102",
+            "name": "Московская олимпиада по информатике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/4337",
+            "name": "Олимпиада школьников по информатике и программированию",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5371",
+            "name": "Олимпиада по программированию «ТехноКубок» ",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/465",
+            "name": "Олимпиада СПбГУ по информатике",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/4357",
+            "name": "Открытая олимпиада школьников (информатика)",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/23",
+            "name": "Открытая олимпиада по программированию",
+            "level": "1"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/316",
+            "name": "Всесибирская олимпиада школьников по информатике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5059",
+            "name": "Вузовско-академическая олимпиада по информатике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5283",
+            "name": "Олимпиада Университета Иннополис «Innopolis Open» по информатике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/343",
+            "name": "Олимпиада школьников «Ломоносов» по информатике",
+            "level": "2"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5481",
+            "name": "Олимпиада «Гранит науки» по информатике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/5333",
+            "name": "Олимпиада школьников «Надежда энергетики» по информатике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/398",
+            "name": "Университетская олимпиада школьников «Бельчонок» по информатике",
+            "level": "3"
+        }
+    ],
+    "robo": [
+        {
+            "link": "https://olimpiada.ru/activity/5346",
+            "name": "Московская олимпиада по робототехнике",
+            "level": "3"
+        },
+        {
+            "link": "https://olimpiada.ru/activity/352",
+            "name": "Олимпиада школьников «Ломоносов» по робототехнике",
+            "level": "3"
+        }
+    ],
+    "rest": null
+}
