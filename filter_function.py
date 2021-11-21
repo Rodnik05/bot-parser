@@ -1,5 +1,8 @@
 from typing import Tuple, Union, List
 import json
+import requests
+from bs4 import BeautifulSoup
+import threading
 
 with open('olimpiads_list', 'r') as file:
     olimpiads_dict = json.load(file)
@@ -17,8 +20,26 @@ def get_by_level(dict: dict = olimpiads_dict, **kwargs) -> dict:
         try:
             yield (x for x in dict[id] if x['level'] == level)
         except Exception as A:
-            print('\n', A,'\n', id)
+            pass
 
-for x in get_by_level(level='3'):
+message_list = []
+
+def pull_date(url):
+    r = requests.get(url)
+    soup = BeautifulSoup(r.text, "lxml")
+    message = soup.find("span", class_ ="classes_types_a").next_sibling.next_sibling.next_sibling.next_sibling.text
+    result = not("Расписание олимпиады в этом году пока не известно" in message)
+    print(url, result)
+    message_list.append(message)
+
+
+pool = []
+for x in get_by_level(level='1'):
     for y in x:
-        print(y)
+        url = y['link']
+        pool.append(threading.Thread(target=pull_date, args=(url,)))
+     
+for thread in pool:
+    thread.start()
+for thread in pool:
+    thread.join()
