@@ -22,9 +22,8 @@ def get_by_level(dict: dict = olimpiads_dict, **kwargs) -> dict:
         except Exception as A:
             pass
 
-message_list = []
 
-def pull_date(url):
+def pull_date(url, message_list):
     r = requests.get(url)
     soup = BeautifulSoup(r.text, "lxml")
     message = soup.find("span", class_ ="classes_types_a").next_sibling.next_sibling.next_sibling.next_sibling.text
@@ -32,14 +31,17 @@ def pull_date(url):
     print(url, result)
     message_list.append(message)
 
+def main():
+    message_list = []
+    pool = []
+    for x in get_by_level(level='1'):
+        for y in x:
+            url = y['link']
+            pool.append(threading.Thread(target=pull_date, args=(url,message_list)))
 
-pool = []
-for x in get_by_level(level='1'):
-    for y in x:
-        url = y['link']
-        pool.append(threading.Thread(target=pull_date, args=(url,)))
-     
-for thread in pool:
-    thread.start()
-for thread in pool:
-    thread.join()
+    for thread in pool:
+        thread.start()
+    for thread in pool:
+        thread.join()
+
+main()
