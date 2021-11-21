@@ -38,6 +38,7 @@ def main():
         for y in x:
             url = y['link']
             pool.append(threading.Thread(target=pull_date, args=(url,message_list)))
+
     for thread in pool:
         thread.start()
     for thread in pool:
