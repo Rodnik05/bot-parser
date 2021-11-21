@@ -79,4 +79,4 @@ def main(a):
     return dictionary
 
 if __name__ == '__main__':
-    main()
+    main(a)
