@@ -22,14 +22,14 @@ def get_by_level(dict: dict = olimpiads_dict, **kwargs) -> dict:
         except Exception as A:
             pass
 
-
 def pull_date(url, message_list):
     r = requests.get(url)
     soup = BeautifulSoup(r.text, "lxml")
     message = soup.find("span", class_ ="classes_types_a").next_sibling.next_sibling.next_sibling.next_sibling.text
     result = not("Расписание олимпиады в этом году пока не известно" in message)
     print(url, result)
-    message_list.append(message)
+    if result:
+        message_list.append(message)
 
 def main():
     message_list = []
@@ -43,5 +43,8 @@ def main():
         thread.start()
     for thread in pool:
         thread.join()
+    
+    return message_list
 
-main()
+if __name__ == '__main__':
+    main()
