@@ -4,8 +4,8 @@ with open('test_file') as file:
 import requests
 
 with open('temp', 'w') as file:
-    file.write(requests.get('https://olimpiada.ru/activity/99').text)
-    webpage = requests.get('https://olimpiada.ru/activity/99').text
+    file.write(requests.get('https://olimpiada.ru/activity/159').text)
+    webpage = requests.get('https://olimpiada.ru/activity/159').text
 
 def replace(a):
     a = list(a)

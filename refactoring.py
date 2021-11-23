@@ -1,4 +1,4 @@
-def split_into_words(string):
+def split_into_words(string) -> list:
     lst = list(string)
     list_of_numbers = tuple(map(str, range(10)))
     list_of_words = []
@@ -34,23 +34,39 @@ def split_into_words(string):
         i += 1    
     return list_of_words
 
-def turn_into_date(list_of_words):
+def turn_into_date(list_of_words: str):
     list_of_numbers = tuple(map(str, range(10)))
     dict_of_dates = {}
-    i = 0
+    
+#finding the first word with a capital letter and the first after
+#so the sentence will be list[first_before : first_after]
+def find_the_sentence(list_of_words: str, index: int):
+    list_of_numbers = tuple(map(str, range(10)))
+    print(list_of_numbers)
+    i = index
+    while i > 0:
+        if list_of_words[i] == '...':
+            i = i - 1
+        elif list_of_words[i][0] in list_of_numbers:
+            i = i - 1
+        elif list_of_words[i].lower() == list_of_words[i]:
+            i = i - 1
+        else: break
+    first_before = i
+    i = index
     while i < len(list_of_words):
-        if list_of_words[i][0] in list_of_numbers:
-            if list_of_words[i-1] == 'До':
-               pass
-            #if word starts with a capital letter and it's not 'До'
-            else:
-                pass
-        i += 1
-    return dict_of_dates
-
+        if list_of_words[i] == '...':
+            i = i + 1
+        elif list_of_words[i][0] in list_of_numbers:
+            i = i + 1
+        elif list_of_words[i].lower() == list_of_words[i]:
+            i = i + 1
+        else: break
+    first_after = i
+    return list_of_words[first_before: first_after]
 
 with open('test_file') as file:
     string = file.read()
 
 print(split_into_words(string))
-
+print(find_the_sentence(split_into_words(string), 6))
