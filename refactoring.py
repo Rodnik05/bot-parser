@@ -42,7 +42,6 @@ def turn_into_date(list_of_words: str):
 #so the sentence will be list[first_before : first_after]
 def find_the_sentence(list_of_words: str, index: int):
     list_of_numbers = tuple(map(str, range(10)))
-    print(list_of_numbers)
     i = index
     while i > 0:
         if list_of_words[i] == '...':
@@ -50,6 +49,8 @@ def find_the_sentence(list_of_words: str, index: int):
         elif list_of_words[i][0] in list_of_numbers:
             i = i - 1
         elif list_of_words[i].lower() == list_of_words[i]:
+            i = i - 1
+        elif list_of_words[i] == 'До':
             i = i - 1
         else: break
     first_before = i
@@ -65,8 +66,21 @@ def find_the_sentence(list_of_words: str, index: int):
     first_after = i
     return list_of_words[first_before: first_after]
 
+def keep_only_dates(string: str):
+    sentences_set = set()
+    tuple_of_numbers = tuple(map(str, range(10)))
+    i = 0
+    while i < len(split_into_words(string)):
+        elem = tuple(find_the_sentence(split_into_words(string), i))
+        for x in tuple_of_numbers:
+            if x in ''.join(elem):
+                sentences_set.add(elem)
+        i += 1
+
+    return(sentences_set)
+
+
 with open('test_file') as file:
     string = file.read()
 
-print(split_into_words(string))
-print(find_the_sentence(split_into_words(string), 6))
+print(keep_only_dates(string))
