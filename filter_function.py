@@ -3,6 +3,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import threading
+import refactoring
 
 with open('olimpiads_list', 'r') as file:
     olimpiads_dict = json.load(file)
@@ -27,6 +28,8 @@ def pull_date(url, message_list):
     soup = BeautifulSoup(r.text, "lxml")
     message = soup.find("span", class_ ="classes_types_a").next_sibling.next_sibling.next_sibling.next_sibling.text
     result = not("Расписание олимпиады в этом году пока не известно" in message)
+    if result:
+        print(refactoring.main(message), sep=' ')
     print(url, result)
     if result:
         message_list.append(message)

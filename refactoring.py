@@ -1,17 +1,4 @@
-def main(link: str):
-    import requests 
-    from bs4 import BeautifulSoup
-
-    #keeping only text
-    with open('test_file', 'w') as file:
-        r = requests.get(link).text
-        soup = BeautifulSoup(r, "lxml")
-        message = soup.find("span", class_ ="classes_types_a").next_sibling.next_sibling.next_sibling.next_sibling.text
-        file.write(message)
-
-    with open('test_file') as file:
-        string = file.read()
-        print(string)
+def main(string):
 
     def split_into_words(string) -> list:
         lst = list(string)
@@ -97,5 +84,17 @@ def main(link: str):
 
 
 if __name__ == '__main__': 
+    import requests 
+    from bs4 import BeautifulSoup
 
-    print(main(link='https://olimpiada.ru/activity/169'))
+    #keeping only text
+    with open('test_file', 'w') as file:
+        r = requests.get('https://olimpiada.ru/activity/149').text
+        soup = BeautifulSoup(r, "lxml")
+        message = soup.find("span", class_ ="classes_types_a").next_sibling.next_sibling.next_sibling.next_sibling.text
+        file.write(message)
+
+    with open('test_file') as file:
+        string = file.read()
+        
+    print(main(string=string))
