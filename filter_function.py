@@ -17,11 +17,12 @@ def get_by_level(dict: dict = olimpiads_dict, **kwargs) -> dict:
     if 'id' in kwargs.keys():
         id = kwargs['id']
         yield [x for x in dict[id] if x['level'] == level]
-    for id in dict:
-        try:
-            yield (x for x in dict[id] if x['level'] == level)
-        except Exception as A:
-            pass
+    else:
+        for id in dict:
+            try:
+                yield (x for x in dict[id] if x['level'] == level)
+            except Exception as A:
+                pass
 
 def pull_date(url, message_list):
     r = requests.get(url)
