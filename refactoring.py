@@ -1,4 +1,18 @@
-def main(string: str):
+def main(link: str):
+    import requests 
+    from bs4 import BeautifulSoup
+
+    #keeping only text
+    with open('test_file', 'w') as file:
+        r = requests.get(link).text
+        soup = BeautifulSoup(r, "lxml")
+        message = soup.find("span", class_ ="classes_types_a").next_sibling.next_sibling.next_sibling.next_sibling.text
+        file.write(message)
+
+    with open('test_file') as file:
+        string = file.read()
+        print(string)
+
     def split_into_words(string) -> list:
         lst = list(string)
         list_of_numbers = tuple(map(str, range(10)))
@@ -20,14 +34,13 @@ def main(string: str):
                     i += 1
                 end = i
                 list_of_words.append(''.join(lst[start:end]))
-                i += 1
             #if element is a ' ' or '\n' or '\xa0' 
             else:
                 i += 1
         #then if there is a word merged with '...'
         i = 0
         while i < len(list_of_words):
-            if '...' in list_of_words[i]:
+            if '...' in list_of_words[i] and len(list_of_words[i]) != 3:
                 list_of_words.insert(i+1, '...')
                 list_of_words.insert(i+1, list_of_words[i][:3])
                 del list_of_words[i]
@@ -79,12 +92,10 @@ def main(string: str):
             i += 1
 
         return(sentences_set)
-
+    
     return keep_only_dates(string)
 
 
-if __name__ == '__main__':  
-    with open('test_file') as file:
-            string = file.read()
+if __name__ == '__main__': 
 
-    print(main(string=string))
+    print(main(link='https://olimpiada.ru/activity/169'))
