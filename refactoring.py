@@ -34,10 +34,6 @@ def main(string):
                 i = i + 1
             i += 1    
         return list_of_words
-
-    def turn_into_date(list_of_words: str):
-        list_of_numbers = tuple(map(str, range(10)))
-        dict_of_dates = {}
         
     #finding the first word with a capital letter and the first after
     #so the sentence will be list[first_before : first_after]
@@ -78,9 +74,34 @@ def main(string):
                     sentences_set.add(elem)
             i += 1
 
-        return(sentences_set)
+        return(tuple(sentences_set))
     
-    return keep_only_dates(string)
+    def turn_into_date(sentences_set: set):
+        list_of_numbers = tuple(map(str, range(10)))
+        dict_of_dates = {}
+        tuple_of_months = (
+            'янв', 'фев', 'мар', 'апр', 
+            'май', 'июн', 'июл', 'авг',
+            'сен', 'окт', 'ноя', 'дек'
+            )
+        lst = []
+        for x in sentences_set:
+            i = 0
+            start = 0
+            while i < len(x):
+                if x[i] in tuple_of_months:
+                    if x[i-2] == 'До':
+                        start = i - 2
+                    elif x[i-2] == '...':
+                        start = i - 3
+                    else:
+                        start = i - 1
+                    break
+                i += 1
+            lst.append({' '.join(x[:start]) : x[start:]})
+        return lst
+                
+    return turn_into_date(keep_only_dates(string))
 
 
 if __name__ == '__main__': 
@@ -89,7 +110,7 @@ if __name__ == '__main__':
 
     #keeping only text
     with open('test_file', 'w') as file:
-        r = requests.get('https://olimpiada.ru/activity/149').text
+        r = requests.get('https://olimpiada.ru/activity/99').text
         soup = BeautifulSoup(r, "lxml")
         message = soup.find("span", class_ ="classes_types_a").next_sibling.next_sibling.next_sibling.next_sibling.text
         file.write(message)
