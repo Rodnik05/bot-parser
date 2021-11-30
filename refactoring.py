@@ -99,10 +99,30 @@ def main(string):
                     break
                 i += 1
             lst.append({' '.join(x[:start]) : x[start:]})
-        return lst
-                
+        return lst        
     return turn_into_date(keep_only_dates(string))
 
+def parser(tple: tuple):
+    tuple_of_months = (
+            'янв', 'фев', 'мар', 'апр', 
+            'май', 'июн', 'июл', 'авг',
+            'сен', 'окт', 'ноя', 'дек'
+            )
+    if tple[0] == 'До':
+        #if 'До 12 дек'
+        return tple[0], tple[1], tuple_of_months.index(tple[2]) + 1
+    elif len(tple) == 2:
+        #if '12 окт'
+        return tple[0], tuple_of_months.index(tple[1]) + 1
+    elif tple[1] == '...':
+        #if '12 ... 13 дек'
+        return (tple[0], tuple_of_months.index(tple[3]) + 1), \
+            (tple[2], tuple_of_months.index(tple[3]) + 1)
+    else:
+        #if '12 дек ... 13 янв'
+        return (tple[0], tuple_of_months.index(tple[1]) + 1), \
+            (tple[3], tuple_of_months.index(tple[4]) + 1)
+    
 
 if __name__ == '__main__': 
     import requests 
