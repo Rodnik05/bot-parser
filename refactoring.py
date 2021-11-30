@@ -100,7 +100,12 @@ def main(string):
                 i += 1
             lst.append({' '.join(x[:start]) : x[start:]})
         return lst        
-    return turn_into_date(keep_only_dates(string))
+    res = turn_into_date(keep_only_dates(string))
+    for l in res:
+        for y in l:
+            l[y] = (parser(l[y]))
+    return res
+    
 
 def parser(tple: tuple):
     tuple_of_months = (
@@ -138,4 +143,5 @@ if __name__ == '__main__':
     with open('test_file') as file:
         string = file.read()
         
-    print(main(string=string))
+    res = main(string=string)
+    print(res)
