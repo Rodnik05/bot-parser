@@ -1,4 +1,5 @@
-def main(string):
+def main(link: str):
+    string = get_text_by_link(link) 
 
     def split_into_words(string) -> list:
         lst = list(string)
@@ -138,7 +139,5 @@ def get_text_by_link(link: str) -> str:
 if __name__ == '__main__': 
     import requests 
     from bs4 import BeautifulSoup
-
-    string = get_text_by_link('https://olimpiada.ru/activity/99')        
-    res = main(string=string)
+    res = main(link='https://olimpiada.ru/activity/99')
     print(res)
