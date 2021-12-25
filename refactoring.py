@@ -114,10 +114,10 @@ def parser(tple: tuple):
             )
     if tple[0] == 'До':
         #if 'До 12 дек'
-        return tple[0], int(tple[1]), tuple_of_months.index(tple[2]) + 1
+        return ((tple[0], int(tple[1]), tuple_of_months.index(tple[2]) + 1),)
     elif len(tple) == 2:
         #if '12 окт'
-        return int(tple[0]), tuple_of_months.index(tple[1]) + 1
+        return ((int(tple[0]), tuple_of_months.index(tple[1]) + 1),)
     elif tple[1] == '...':
         #if '12 ... 13 дек'
         return (int(tple[0]), tuple_of_months.index(tple[3]) + 1), \
@@ -136,5 +136,5 @@ def get_text_by_link(link: str) -> str:
 if __name__ == '__main__': 
     import requests 
     from bs4 import BeautifulSoup
-    res = main(link='https://olimpiada.ru/activity/99')
+    res = main(link='https://olimpiada.ru/activity/465')
     print(res)
