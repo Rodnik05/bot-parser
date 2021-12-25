@@ -78,8 +78,6 @@ def main(link: str):
         return(tuple(sentences_set))
     
     def turn_into_date(sentences_set: set):
-        list_of_numbers = tuple(map(str, range(10)))
-        dict_of_dates = {}
         tuple_of_months = (
             'янв', 'фев', 'мар', 'апр', 
             'май', 'июн', 'июл', 'авг',
@@ -116,20 +114,19 @@ def parser(tple: tuple):
             )
     if tple[0] == 'До':
         #if 'До 12 дек'
-        return tple[0], tple[1], tuple_of_months.index(tple[2]) + 1
+        return tple[0], int(tple[1]), tuple_of_months.index(tple[2]) + 1
     elif len(tple) == 2:
         #if '12 окт'
-        return tple[0], tuple_of_months.index(tple[1]) + 1
+        return int(tple[0]), tuple_of_months.index(tple[1]) + 1
     elif tple[1] == '...':
         #if '12 ... 13 дек'
-        return (tple[0], tuple_of_months.index(tple[3]) + 1), \
-            (tple[2], tuple_of_months.index(tple[3]) + 1)
+        return (int(tple[0]), tuple_of_months.index(tple[3]) + 1), \
+            (int(tple[2]), tuple_of_months.index(tple[3]) + 1)
     else:
         #if '12 дек ... 13 янв'
-        return (tple[0], tuple_of_months.index(tple[1]) + 1), \
-            (tple[3], tuple_of_months.index(tple[4]) + 1)
+        return (int(tple[0]), tuple_of_months.index(tple[1]) + 1), \
+            (int(tple[3]), tuple_of_months.index(tple[4]) + 1)
     
-
 def get_text_by_link(link: str) -> str:
     r = requests.get(link).text
     soup = BeautifulSoup(r, "lxml")
