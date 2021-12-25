@@ -100,13 +100,13 @@ def main(string):
                 i += 1
             lst.append({' '.join(x[:start]) : x[start:]})
         return lst        
+    
     res = turn_into_date(keep_only_dates(string))
     for l in res:
         for y in l:
             l[y] = (parser(l[y]))
     return res
     
-
 def parser(tple: tuple):
     tuple_of_months = (
             'янв', 'фев', 'мар', 'апр', 
@@ -129,19 +129,16 @@ def parser(tple: tuple):
             (tple[3], tuple_of_months.index(tple[4]) + 1)
     
 
+def get_text_by_link(link: str) -> str:
+    r = requests.get(link).text
+    soup = BeautifulSoup(r, "lxml")
+    text = soup.find("span", class_ ="classes_types_a").next_sibling.next_sibling.next_sibling.next_sibling.text
+    return text
+
 if __name__ == '__main__': 
     import requests 
     from bs4 import BeautifulSoup
 
-    #keeping only text
-    with open('test_file', 'w') as file:
-        r = requests.get('https://olimpiada.ru/activity/99').text
-        soup = BeautifulSoup(r, "lxml")
-        message = soup.find("span", class_ ="classes_types_a").next_sibling.next_sibling.next_sibling.next_sibling.text
-        file.write(message)
-
-    with open('test_file') as file:
-        string = file.read()
-        
+    string = get_text_by_link('https://olimpiada.ru/activity/99')        
     res = main(string=string)
     print(res)
