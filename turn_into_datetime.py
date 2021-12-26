@@ -28,5 +28,4 @@ def turn_into_datetime(dates: tuple)->tuple[datetime]:
                 return datetime(*(tuple([2022, dates[0][1],dates[0][0]]))), \
                     datetime(*(tuple([2022, dates[1][1],dates[1][0]])))
 
-date = ((4, 12), (12, 12))
-print(turn_into_datetime(date))
+

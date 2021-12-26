@@ -103,7 +103,7 @@ def main(link: str):
     res = turn_into_date(keep_only_dates(string))
     for l in res:
         for y in l:
-            l[y] = (parser(l[y]))
+            l[y] = (turn_into_datetime(parser(l[y])))
     return res
     
 def parser(tple: tuple):
@@ -136,5 +136,6 @@ def get_text_by_link(link: str) -> str:
 if __name__ == '__main__': 
     import requests 
     from bs4 import BeautifulSoup
+    from turn_into_datetime import turn_into_datetime
     res = main(link='https://olimpiada.ru/activity/99')
     print(res)
