@@ -136,5 +136,5 @@ def get_text_by_link(link: str) -> str:
 if __name__ == '__main__': 
     import requests 
     from bs4 import BeautifulSoup
-    res = main(link='https://olimpiada.ru/activity/465')
+    res = main(link='https://olimpiada.ru/activity/99')
     print(res)
