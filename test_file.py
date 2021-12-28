@@ -7,4 +7,4 @@ cur.execute("INSERT INTO olimpiads VALUES ('text', 'TEST', 'TEST')")
 
 con.commit()
 
-con.close
+con.close()
