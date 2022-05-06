@@ -9,5 +9,5 @@ def main():
     with open('webpage','w') as file:
         file.write(webpage)
 
-if __name__ == 'main':
+if __name__ == '__main__':
     main()
